@@ -41,7 +41,7 @@ function site_pre_launch_settings() {
 	);
 
 	register_setting(
-		'site_pre_launch_settings',
+		'site-pre-launch',
 		'site_pre_launch_settings'
 	);
 
