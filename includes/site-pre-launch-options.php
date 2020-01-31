@@ -8,6 +8,7 @@ function site_pre_launch_options() {
   $options['name']      = 'Marty';
   $options['location']  = 'Greensboro, NC';
   $options['sponsor']   = 'WDS';
+  $options['nickname']  = 'McFly';
 
   if( !get_option( 'site_pre_launch_option' ) ) {
     add_option( 'site_pre_launch_option', $options );
